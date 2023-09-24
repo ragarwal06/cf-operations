@@ -1,0 +1,20 @@
+pnpm-lock.yaml
+dist
+build
+coverage
+.wp_federation
+.turbo
+.rollup.cache
+default-env.json
+.env
+xs-app.json
+.vscode
+readme.md
+
+# Pipeline
+.pnpm-store
+.pipeline
+errorDetails.json
+stage-config.json
+staging_output_deprecated.json
+url-log.json
