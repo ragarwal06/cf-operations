@@ -1,6 +1,6 @@
 {
   "name": "@ragarwal06/cf-operations",
-  "version": "0.0.1-beta",
+  "version": "1.0.0",
   "description": "SAP BTP Operations library for node js applications",
   "license": "ISC",
   "repository": {

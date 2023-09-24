@@ -29,3 +29,11 @@ jobs:
       npmrc: registry/.npmrc.github
     secrets:
       token: ${{secrets.GITHUB_TOKEN}}
+
+  pages-deploy:
+    needs: [publish-npmjs, publish-gpr]
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ragarwal06/deployer-workflow/.github/workflows/github-pages-deply.yml@main
